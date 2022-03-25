@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Practica de CSS" />
+  <meta name="description" content="pagina campaña vacunacion" />
+  <meta name="keywords" content="tutoriales, html, desarrollo web" />
+  <link rel="stylesheet" href="/Pokedex-Clone/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="Pokedex-Clone/assets/favicon.jpg">
+  <title>Pokedex</title>
+</head>
+
+<body>
+
+  <!--POKEDEX-->
+  <div class="pokedex">
+    <!--LEFT CONTAINER-->
+    <div class="left-container">
+      <!--LEFT CONTAINER TOP SECTION-->
+      <div class="left-container__top-section">
+        <div class="top-section__blue"></div>
+        <!--CONTAINER SMALL BUTTONS-->
+        <div class="top-section__small-buttons">
+          <div class="top-section__red"></div>
+          <div class="top-section__yellow"></div>
+          <div class="top-section__green"></div>
+        </div>
+      </div>
+      <!--LEFT CONTAINER TOP SECTION-->
+
+      <!--LEFT CONTAINER MAIN SECTION CONTAINER-->
+      <div class="left-container__main-section-container">
+        <!--LEFT CONTAINER MAIN SECTION-->
+        <div class="left-container__main-section">
+          <!--MAIN SECTION WHITE-->
+          <div class="main-section__white">
+            <div class="main-section__black">
+              <!-- * const mainScreen -->
+              <div class="main-screen hide">
+                <div class="screen__header">
+                  <!-- * const pokeName -->
+                  <span class="poke-name"></span>
+                  <!-- * const pokeId -->
+                  <span class="poke-id"></span>
+                </div>
+                <div class="screen__image">
+                  <!-- * const pokeFrontImage-->
+                  <img src="" class="poke-front-image" alt="front">
+                  <!-- * const pokeBackImage-->
+                  <img src="" class="poke-back-image" alt="back">
+                </div>
+                <div class="screen__description">
+                  <div class="stats__types">
+                    <!-- * const pokeTypeOne-->
+                    <span class="poke-type-one"></span>
+                    <!-- * const pokeTypeTwo-->
+                    <span class="poke-type-two"></span>
+                  </div>
+                  <div class="screen__stats">
+                    <!-- * const pokeWeight-->
+                    <p class="stats__weight">
+                      weight: <span class="poke-weight"></span>
+                    </p>
+                    <!-- * const pokeHeight-->
+                    <p class="stats__height">
+                      height: <span class="poke-height"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="left-container__controllers">
+            <div class="controllers__d-pad">
+              <div class="d-pad__cell top"></div>
+              <div class="d-pad__cell left"></div>
+              <div class="d-pad__cell middle"></div>
+              <div class="d-pad__cell right"></div>
+              <div class="d-pad__cell bottom"></div>
+            </div>
+            <div class="controllers__buttons">
+              <div class="buttons__button">B</div>
+              <div class="buttons__button">A</div>
+            </div>
+          </div>
+        </div>
+        <!--LEFT CONTAINER MAIN SECTION-->
+        <!--LEFT CONTAINER RIGHT-->
+        <div class="left-container__right">
+          <div class="left-container__hinge"></div>
+          <div class="left-container__hinge"></div>
+        </div>
+        <!--LEFT CONTAINER RIGHT-->
+      </div>
+    </div>
+    <!--LEFT CONTAINER MAIN SECTION END-->
+
+    <!--LEFT CONTAINER-->
+    <div class="right-container">
+      <div class="right-container__black">
+        <div class="right-container__screen">
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+          <div class="list-item"></div>
+        </div>
+      </div>
+      <div class="right-container__buttons">
+        <!-- * const leftButton-->
+        <div class="left-button">Prev</div>
+        <!-- * const rightButton-->
+        <div class="right-button">Next</div>
+        <!--?Aqui deberiamos agregar un input de busqueda-->
+        <!-- <label for="pokemon-search">Search Pokemon</label>
+        <input type="search" id="id-Pokeon" name="Pokemon-name" placeholder="inserta el id o nombre del pokemon...">
+        <button>Search</button> -->
+      </div>
+    </div>
+  </div>
+  <!--POKEDEX-->
+  <script src="/Pokedex-Clone/js/app.js"></script>
+</body>
+
+</html>
